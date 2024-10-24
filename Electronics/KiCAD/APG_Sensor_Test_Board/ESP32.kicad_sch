@@ -1617,10 +1617,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ba0ef80-8453-4792-a5c7-3218451294f6")
+			(uuid "4ba0ef80-8453-4792-a5c7-3218451294f7")
 		)
 		(pin "2"
-			(uuid "1106065d-bf7f-4fee-97d0-b4772380e34d")
+			(uuid "1106065d-bf7f-4fee-97d0-b4772380e34e")
 		)
 		(instances
 			(project ""
