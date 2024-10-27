@@ -1,2 +1,16 @@
-Lm*o you actually read this?
-watch yo profanity
+Always before you do any work
+git pull
+
+If you need to push a change.
+
+git add .
+
+git status (make sure everything is green and the files you want to change are in there)
+
+git commit -m"COMMIT MESSAGE"
+
+git push
+
+
+
+
