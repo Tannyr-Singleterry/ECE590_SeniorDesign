@@ -5,8 +5,18 @@
 	(uuid "3161be0c-372f-463d-be0a-bab00f344057")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 203.2 91.44) (xy 203.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d9699e-d4c8-46d4-b67e-49daa8246022")
+	)
 	(sheet
-		(at 46.99 38.1)
+		(at 46.99 115.57)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +28,7 @@
 		)
 		(uuid "1176df13-1d31-4c0d-ab61-bd75d7380dc4")
 		(property "Sheetname" "Flash"
-			(at 46.99 37.3884 0)
+			(at 46.99 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,13 +37,53 @@
 			)
 		)
 		(property "Sheetfile" "Flash.kicad_sch"
-			(at 46.99 64.0846 0)
+			(at 46.99 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "FCLK" input
+			(at 72.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7600f11b-a86e-4dd4-965c-b506d6343e33")
+		)
+		(pin "FMISO" input
+			(at 72.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bea319b4-687b-4507-ab43-a6eb0dfaba80")
+		)
+		(pin "FCS" input
+			(at 72.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a34a6ac-622d-416e-a0b3-c09e47e8f43e")
+		)
+		(pin "FMOSI" input
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a52a7d5d-9217-4380-beea-f7a3e462d076")
 		)
 		(instances
 			(project "APG_Sensor_Test_Board"
@@ -73,6 +123,66 @@
 				(justify left top)
 			)
 		)
+		(pin "INT1" output
+			(at 203.2 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f48c5ef-b504-48fa-a958-0c466536c6ad")
+		)
+		(pin "INT2" output
+			(at 203.2 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fee42441-59a6-4385-817f-e491fd583523")
+		)
+		(pin "SDI" input
+			(at 203.2 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5467f6c5-3c98-4c40-8c4b-f829d3a15c59")
+		)
+		(pin "SCLK" input
+			(at 203.2 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1bf48ac8-fcf6-4fa5-9f3a-3b7f5fddf526")
+		)
+		(pin "nCS" input
+			(at 203.2 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3aec46e9-9325-4e8d-852a-0382e9b72bd5")
+		)
+		(pin "SDO" input
+			(at 203.2 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bef979b2-9dea-4872-a6cc-4a890604f436")
+		)
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
@@ -82,8 +192,8 @@
 		)
 	)
 	(sheet
-		(at 120.65 71.12)
-		(size 36.83 36.83)
+		(at 120.65 36.83)
+		(size 36.83 104.14)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -94,7 +204,7 @@
 		)
 		(uuid "597921f3-a65f-46ab-993f-3f9f1b9176d6")
 		(property "Sheetname" "ESP32"
-			(at 120.65 70.4084 0)
+			(at 120.65 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,13 +213,333 @@
 			)
 		)
 		(property "Sheetfile" "ESP32.kicad_sch"
-			(at 120.65 108.5346 0)
+			(at 120.65 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "IO47" bidirectional
+			(at 157.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e5650c99-3bb7-4653-8d0c-411296019fc7")
+		)
+		(pin "IO48" bidirectional
+			(at 157.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d3f79f6-f403-4115-af3e-f871a69f2a5a")
+		)
+		(pin "IO39" bidirectional
+			(at 157.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f5448b35-4e4c-4461-825e-520299660f2f")
+		)
+		(pin "IO41" bidirectional
+			(at 157.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "260c883f-7d30-41e3-bd33-4b3c9c8e4090")
+		)
+		(pin "IO40" bidirectional
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e5de207-e485-434c-9243-6f732fd95749")
+		)
+		(pin "IO37" bidirectional
+			(at 157.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d063387d-e79a-4db3-867e-501be9a60bfb")
+		)
+		(pin "IO38" bidirectional
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dc6b16a3-cdfc-4497-9344-806bac0b34a0")
+		)
+		(pin "IO42" bidirectional
+			(at 157.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a8e60dc-13fc-40dd-9273-e84d4364f500")
+		)
+		(pin "IO36" bidirectional
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "806cf307-d023-46ef-921e-a506263682ba")
+		)
+		(pin "USB_D_P" bidirectional
+			(at 120.65 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "193a35fc-16ed-4560-80a3-d2e2e9ef9cfd")
+		)
+		(pin "USB_D_N" bidirectional
+			(at 120.65 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f59f0d82-7c47-4018-b334-ca779efcd97a")
+		)
+		(pin "IO21" bidirectional
+			(at 120.65 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7778f1a6-a4a0-4334-a7ad-773044a64142")
+		)
+		(pin "IO35" bidirectional
+			(at 157.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "341d5250-1c4e-4926-ab84-1d247582bde3")
+		)
+		(pin "IO9" bidirectional
+			(at 120.65 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e76781eb-795a-4e55-b0e0-e9414087f377")
+		)
+		(pin "IO8" bidirectional
+			(at 120.65 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7f22cc0e-b572-4e3a-9c1b-fe51da0099b9")
+		)
+		(pin "IO7" bidirectional
+			(at 120.65 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b2de69c-a779-4a7a-be2e-fd1307aa7764")
+		)
+		(pin "IO11" bidirectional
+			(at 120.65 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0408e3cf-d98b-48bf-a8af-5bc543f52bdd")
+		)
+		(pin "IO10" bidirectional
+			(at 120.65 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f69e789d-0634-4616-ad75-7252f3445339")
+		)
+		(pin "IO12" bidirectional
+			(at 120.65 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9ce08546-7efe-45fb-8729-7776c6750425")
+		)
+		(pin "IO14" bidirectional
+			(at 120.65 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bc095e49-f4bd-4c72-b2c3-8612722e88ec")
+		)
+		(pin "IO13" bidirectional
+			(at 120.65 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0658e432-ee72-420a-8a31-b48736df49cc")
+		)
+		(pin "IO15" bidirectional
+			(at 120.65 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d6bbbc6-1c67-4af2-be7a-4efd128390b9")
+		)
+		(pin "IO16" bidirectional
+			(at 120.65 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "132bac63-9fbb-41b8-94d3-9d7c78e67e07")
+		)
+		(pin "IO4" bidirectional
+			(at 120.65 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d42c0513-c138-4e61-9d7a-0e7d7f1c6ce7")
+		)
+		(pin "IO6" bidirectional
+			(at 120.65 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a88269ec-d6d1-4f71-a42e-2dc5b11a9b0c")
+		)
+		(pin "IO5" bidirectional
+			(at 120.65 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4be8a920-eba6-4875-9c82-318cf16b6628")
+		)
+		(pin "IO2" bidirectional
+			(at 120.65 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6667c726-fe86-4b61-9830-f6e17e813cda")
+		)
+		(pin "IO1" bidirectional
+			(at 120.65 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61243b91-ec12-43c1-bbd9-d6287755b9e2")
+		)
+		(pin "RX" bidirectional
+			(at 120.65 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6134f025-f8b1-493c-91d1-bc4411559e5a")
+		)
+		(pin "IO17" bidirectional
+			(at 120.65 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dfd4d4bc-fbdd-4845-9c89-7f90649d46cb")
+		)
+		(pin "IO18" bidirectional
+			(at 120.65 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aaef3d9e-1e09-48e0-ab84-2532825a8a28")
+		)
+		(pin "TX" bidirectional
+			(at 120.65 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "70ea8f05-31e9-4317-bd2a-d6f18ad89db2")
 		)
 		(instances
 			(project "APG_Sensor_Test_Board"
@@ -149,6 +579,46 @@
 				(justify left top)
 			)
 		)
+		(pin "SDO" output
+			(at 203.2 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a64d1f3c-7874-4c6d-8465-8e1d0118b9fb")
+		)
+		(pin "SDI" input
+			(at 203.2 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81ef90e1-4773-4d0a-923e-915172b49419")
+		)
+		(pin "SCLK" input
+			(at 203.2 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "062006e5-5a1d-4894-9904-50e4af1b08ff")
+		)
+		(pin "CSB" input
+			(at 203.2 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "66fd0669-5006-45a2-9988-22fae31f3191")
+		)
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
@@ -187,6 +657,66 @@
 				(justify left top)
 			)
 		)
+		(pin "Debug 3" input
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b1e94756-a753-4416-84ed-46b789ca7f0e")
+		)
+		(pin "Debug 2" input
+			(at 72.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9dfa0ed9-de35-4ecc-bde1-7a8ed947a200")
+		)
+		(pin "Debug 1" input
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2f620d7-34c2-41e5-9c26-a02ef8900bdb")
+		)
+		(pin "Buzzer" input
+			(at 72.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef34f23a-9bea-415e-8460-0700470b5a20")
+		)
+		(pin "Button 1" output
+			(at 72.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "20a266d3-ea33-4e22-b8e3-bc5a84978e9c")
+		)
+		(pin "Button 2" output
+			(at 72.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7ff02448-8807-49c2-9d27-42cf487d12bb")
+		)
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
@@ -196,7 +726,7 @@
 		)
 	)
 	(sheet
-		(at 46.99 114.3)
+		(at 46.99 36.83)
 		(size 25.4 26.67)
 		(fields_autoplaced yes)
 		(stroke
@@ -208,7 +738,7 @@
 		)
 		(uuid "ce24b18a-13e5-44eb-9a8e-7d29741d4106")
 		(property "Sheetname" "Power_and_USB"
-			(at 46.99 113.5884 0)
+			(at 46.99 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,13 +747,33 @@
 			)
 		)
 		(property "Sheetfile" "Power_and_USB.kicad_sch"
-			(at 46.99 141.5546 0)
+			(at 46.99 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "D_P" bidirectional
+			(at 72.39 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d07be22-a122-4bd3-a05b-cdc643f0c09d")
+		)
+		(pin "D_N" bidirectional
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e1466a21-08af-406b-9e49-f085344fef14")
 		)
 		(instances
 			(project "APG_Sensor_Test_Board"

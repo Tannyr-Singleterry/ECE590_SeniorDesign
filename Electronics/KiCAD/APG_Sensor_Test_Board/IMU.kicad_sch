@@ -914,13 +914,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 83.82) (xy 116.84 83.82)
+			(xy 72.39 83.82) (xy 116.84 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3864d510-8dd6-4989-93b6-877d126dc698")
+		(uuid "2dee2177-10f1-4296-9224-6447603b5c2b")
 	)
 	(wire
 		(pts
@@ -931,16 +931,6 @@
 			(type default)
 		)
 		(uuid "3be19653-7942-4556-a8e6-4531fc6d1851")
-	)
-	(wire
-		(pts
-			(xy 114.3 81.28) (xy 116.84 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51cd2aa6-d658-496c-af7d-50b939bd1d68")
 	)
 	(wire
 		(pts
@@ -961,16 +951,6 @@
 			(type default)
 		)
 		(uuid "6b389c55-85ec-4a5e-b561-7ff89f45c410")
-	)
-	(wire
-		(pts
-			(xy 114.3 93.98) (xy 116.84 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "706bbc4e-a43b-430a-86b0-5ccc6c53f7a2")
 	)
 	(wire
 		(pts
@@ -1001,6 +981,16 @@
 			(type default)
 		)
 		(uuid "9517cb93-ba1c-478c-913c-ed9d62458980")
+	)
+	(wire
+		(pts
+			(xy 72.39 93.98) (xy 116.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97402d2d-d0c0-4434-94cd-bf5726501448")
 	)
 	(wire
 		(pts
@@ -1042,77 +1032,15 @@
 		)
 		(uuid "e1ce72de-9f28-4cc2-99fd-ef5d7f1f1d41")
 	)
-	(hierarchical_label "SDO"
-		(shape input)
-		(at 114.3 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 72.39 81.28) (xy 116.84 81.28)
 		)
-		(uuid "33ad91f8-1a70-4ec9-9448-40c178871376")
-	)
-	(hierarchical_label "nCS"
-		(shape input)
-		(at 114.3 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "364c58fe-4f7e-4d99-b3bb-4bca73672f3f")
-	)
-	(hierarchical_label "SDI"
-		(shape input)
-		(at 114.3 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "401b7cd6-c245-4af7-84eb-11f5ce2fdf47")
-	)
-	(hierarchical_label "FSYNC"
-		(shape input)
-		(at 114.3 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "715d8a6e-da00-448f-87b2-1390f8698b94")
-	)
-	(hierarchical_label "INT1"
-		(shape output)
-		(at 114.3 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7555af24-8ecf-4e1e-aaca-16c50730ffc8")
-	)
-	(hierarchical_label "SCLK"
-		(shape input)
-		(at 114.3 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb1466d1-a499-4647-9551-168d2f747fb3")
+		(uuid "fccc07da-0cbb-4d19-b301-63c9d92016c6")
 	)
 	(symbol
 		(lib_id "power:GND")
