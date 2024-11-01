@@ -7,6 +7,26 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 72.39 40.64) (xy 120.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8271d8-93ff-4343-b76c-d7a06ec70bc1")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 120.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a755c44-3252-44d4-a4d5-4d97860e2df7")
+	)
+	(wire
+		(pts
 			(xy 203.2 91.44) (xy 203.2 88.9)
 		)
 		(stroke
