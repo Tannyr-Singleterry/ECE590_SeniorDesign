@@ -1934,7 +1934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "062388fa-0550-4bf7-9ae1-62f9f9bc7efd")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR045"
 			(at 63.5 68.58 0)
 			(effects
 				(font
@@ -1984,7 +1984,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR034")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2000,7 +2000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11f188bd-884b-4cc3-a280-d1ab5cb87ed2")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR054"
 			(at 213.36 87.63 0)
 			(effects
 				(font
@@ -2050,7 +2050,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR043")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2066,7 +2066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cbbdcb3-349d-4665-9a69-90f1b73ba221")
-		(property "Reference" "R10"
+		(property "Reference" "R22"
 			(at 107.95 87.6299 0)
 			(effects
 				(font
@@ -2084,7 +2084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 106.426 89.154 90)
 			(effects
 				(font
@@ -2120,7 +2120,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "R10")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2136,7 +2136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5102e336-da53-498e-b4e9-8a86941cf765")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 215.9 76.2062 0)
 			(effects
 				(font
@@ -2154,7 +2154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 213.36 77.47 0)
 			(effects
 				(font
@@ -2190,7 +2190,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2205,7 +2205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fee2531-c466-4088-ab3c-ed14ce2033e0")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR048"
 			(at 105.41 99.06 0)
 			(effects
 				(font
@@ -2255,7 +2255,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR037")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2271,7 +2271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6612feb2-58d4-401f-a4fc-bbcbec0549aa")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 130.81 86.3662 0)
 			(effects
 				(font
@@ -2289,7 +2289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 128.27 87.63 0)
 			(effects
 				(font
@@ -2325,7 +2325,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2341,7 +2341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd078e8-4219-434e-a652-830fbced82a1")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 179.07 76.2062 0)
 			(effects
 				(font
@@ -2359,7 +2359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 176.53 77.47 0)
 			(effects
 				(font
@@ -2395,7 +2395,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2427,7 +2427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 120.65 84.328 90)
 			(effects
 				(font
@@ -2479,7 +2479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dcf2f42-b0fd-4c0b-a352-e33c058a8ccd")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR046"
 			(at 69.85 74.93 0)
 			(effects
 				(font
@@ -2529,7 +2529,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR035")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2544,7 +2544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "823a9851-646b-4266-8e90-736758b40693")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR050"
 			(at 128.27 96.52 0)
 			(effects
 				(font
@@ -2594,7 +2594,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR039")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2610,7 +2610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac1e60ba-5b07-4d7a-908a-987f8fe63805")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 199.39 67.31 0)
 			(effects
 				(font
@@ -2665,7 +2665,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2680,7 +2680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acf85fed-fde9-479e-b29d-154303f97824")
-		(property "Reference" "R9"
+		(property "Reference" "R21"
 			(at 96.52 95.504 0)
 			(effects
 				(font
@@ -2698,7 +2698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 103.886 96.774 90)
 			(effects
 				(font
@@ -2734,7 +2734,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "R9")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2750,7 +2750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0a9291b-edff-473c-a79f-4d2728d6e44e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR052"
 			(at 176.53 87.63 0)
 			(effects
 				(font
@@ -2800,7 +2800,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR041")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2816,7 +2816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be24b7cf-6826-43cd-8e8e-5a8f8707c7a9")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR047"
 			(at 102.87 106.68 0)
 			(effects
 				(font
@@ -2866,7 +2866,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR036")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2882,7 +2882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6e20f90-8f9b-4d16-8c44-27b5a345512d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR053"
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -2932,7 +2932,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR042")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2948,7 +2948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0afa617-06a8-4ee6-8a4e-e2a1de9e4ff1")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR049"
 			(at 128.27 86.36 0)
 			(effects
 				(font
@@ -2998,7 +2998,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR038")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3014,7 +3014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e38ab64f-8ae0-4aa2-ad4e-03b8e3d3b242")
-		(property "Reference" "J1"
+		(property "Reference" "J5"
 			(at 114.3 66.0399 90)
 			(effects
 				(font
@@ -3032,7 +3032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 95.25 71.12 0)
 			(effects
 				(font
@@ -3052,6 +3052,15 @@
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 95.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" "USB4105-GF-A"
+			(at 95.25 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +3122,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "J1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3129,7 +3138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e67926c5-8c42-43c6-a39d-16e237ddc84c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR055"
 			(at 219.71 77.47 0)
 			(effects
 				(font
@@ -3179,7 +3188,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR044")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3195,7 +3204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcbfb08f-1b50-487e-b4f3-8bb003531102")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR051"
 			(at 170.18 77.47 0)
 			(effects
 				(font
@@ -3245,7 +3254,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR040")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

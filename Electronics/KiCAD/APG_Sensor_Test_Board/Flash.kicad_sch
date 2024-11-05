@@ -906,7 +906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08f9a84c-4cfb-4cb6-8be4-f0ff399429b0")
-		(property "Reference" "R2"
+		(property "Reference" "R14"
 			(at 134.62 43.1799 0)
 			(effects
 				(font
@@ -924,7 +924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 130.302 44.45 90)
 			(effects
 				(font
@@ -960,7 +960,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/1176df13-1d31-4c0d-ab61-bd75d7380dc4"
-					(reference "R2")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -976,7 +976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b01fb79-5aeb-40d6-a93a-e1053311009b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR033"
 			(at 132.08 92.71 0)
 			(effects
 				(font
@@ -1026,7 +1026,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/1176df13-1d31-4c0d-ab61-bd75d7380dc4"
-					(reference "#PWR02")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -1042,7 +1042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8514795c-4757-4a4b-99bc-e77d84021e1e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR032"
 			(at 132.08 44.45 0)
 			(effects
 				(font
@@ -1092,7 +1092,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/1176df13-1d31-4c0d-ab61-bd75d7380dc4"
-					(reference "#PWR03")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1108,7 +1108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd9a7c5-6b97-4f3c-84d1-f24dd652d70a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR034"
 			(at 137.16 63.5 0)
 			(effects
 				(font
@@ -1158,7 +1158,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/1176df13-1d31-4c0d-ab61-bd75d7380dc4"
-					(reference "#PWR04")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1174,7 +1174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b15e4e5a-edc4-49da-88d0-86e421bc4e75")
-		(property "Reference" "C3"
+		(property "Reference" "C11"
 			(at 140.97 52.0699 0)
 			(effects
 				(font
@@ -1192,7 +1192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 138.1252 57.15 0)
 			(effects
 				(font
@@ -1228,7 +1228,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/1176df13-1d31-4c0d-ab61-bd75d7380dc4"
-					(reference "C3")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1244,7 +1244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec4570ee-b527-402f-a086-e13f9c72ca5d")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 140.97 72.3899 0)
 			(effects
 				(font
@@ -1316,7 +1316,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/1176df13-1d31-4c0d-ab61-bd75d7380dc4"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)

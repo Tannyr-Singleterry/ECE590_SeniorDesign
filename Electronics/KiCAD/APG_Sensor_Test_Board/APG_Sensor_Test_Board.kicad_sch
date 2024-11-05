@@ -1411,7 +1411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "028e98cc-498a-489d-8dd3-1a523d7e9f93")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 176.53 134.6199 0)
 			(effects
 				(font
@@ -1429,7 +1429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 173.99 135.89 0)
 			(effects
 				(font
@@ -1474,7 +1474,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1490,7 +1490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a6e2ce8-f653-4705-a144-b9c7d0ab99fd")
-		(property "Reference" "R18"
+		(property "Reference" "R1"
 			(at 173.99 26.6699 0)
 			(effects
 				(font
@@ -1508,7 +1508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 169.672 27.94 90)
 			(effects
 				(font
@@ -1544,7 +1544,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
-					(reference "R18")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1560,7 +1560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f59dd24-2120-45ca-8931-c7e8f735fe0b")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 85.09 48.26 0)
 			(effects
 				(font
@@ -1576,7 +1576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 85.09 57.15 0)
 			(effects
 				(font
@@ -1612,7 +1612,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1628,7 +1628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33998235-f858-4ac6-8c92-85e73377ffa0")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR04"
 			(at 180.34 25.4 0)
 			(effects
 				(font
@@ -1678,7 +1678,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
-					(reference "#PWR048")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1694,7 +1694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "860ab0dd-26df-4e45-9e09-e704cba76853")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 176.53 147.3199 0)
 			(effects
 				(font
@@ -1712,7 +1712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 173.99 148.59 0)
 			(effects
 				(font
@@ -1757,7 +1757,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1773,7 +1773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b777eef6-cc64-4c5e-a370-55bdd316183f")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR02"
 			(at 90.17 64.77 0)
 			(effects
 				(font
@@ -1823,7 +1823,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
-					(reference "#PWR050")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1839,7 +1839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cff34b71-9791-401b-b000-be19a614cbf5")
-		(property "Reference" "R17"
+		(property "Reference" "R2"
 			(at 182.88 26.6699 0)
 			(effects
 				(font
@@ -1857,7 +1857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 178.562 27.94 90)
 			(effects
 				(font
@@ -1885,15 +1885,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "795211d3-b01d-4071-9308-4bb6bb8f7840")
+			(uuid "795211d3-b01d-4071-9308-4bb6bb8f7841")
 		)
 		(pin "2"
-			(uuid "6ea5d6c8-d1ef-4b5b-a01a-587b5d5dc939")
+			(uuid "6ea5d6c8-d1ef-4b5b-a01a-587b5d5dc93a")
 		)
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
-					(reference "R17")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1909,7 +1909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da2626f0-6092-46b1-adda-0a9329dbd18d")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR01"
 			(at 74.93 118.11 0)
 			(effects
 				(font
@@ -1959,7 +1959,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
-					(reference "#PWR051")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1975,7 +1975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec8b2671-6e7c-46d8-ab65-f12d646e5a53")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 176.53 157.4799 0)
 			(effects
 				(font
@@ -1993,7 +1993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 173.99 158.75 0)
 			(effects
 				(font
@@ -2032,7 +2032,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2048,7 +2048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efcdc3a7-7b8e-4567-9beb-27bce4eadc79")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR03"
 			(at 171.45 25.4 0)
 			(effects
 				(font
@@ -2098,7 +2098,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
-					(reference "#PWR047")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
