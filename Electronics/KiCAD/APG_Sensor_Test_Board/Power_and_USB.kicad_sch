@@ -1146,145 +1146,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:MCP1700x-180xxTT"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MCP1700x-180xxTT"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "250mA Low Quiscent Current LDO, 1.8V output, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "regulator linear ldo"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCP1700x-180xxTT_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MCP1700x-180xxTT_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:TLV1117-33"
 			(pin_names
 				(offset 0.254)
@@ -1415,126 +1276,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+1V8"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V8"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+1V8\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V8_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V8_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1882,12 +1623,6 @@
 		)
 	)
 	(junction
-		(at 217.17 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3611c590-de6d-48d9-a57b-136c41307d4e")
-	)
-	(junction
 		(at 128.27 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1917,12 +1652,6 @@
 		(color 0 0 0 0)
 		(uuid "ebde5d15-4371-4107-984c-124634049642")
 	)
-	(junction
-		(at 176.53 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecf16f77-c5a6-4340-bc5c-2b4b2ab31be5")
-	)
 	(no_connect
 		(at 82.55 82.55)
 		(uuid "8816e913-13d8-484f-a14d-f07dc668ba17")
@@ -1940,16 +1669,6 @@
 			(type default)
 		)
 		(uuid "04c75587-4b9a-41a2-aac0-06732c2a9fff")
-	)
-	(wire
-		(pts
-			(xy 217.17 110.49) (xy 217.17 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08f62b65-944f-4e4b-b4b3-cebb5e8d5284")
 	)
 	(wire
 		(pts
@@ -1973,16 +1692,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 116.84) (xy 176.53 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28fd56c4-af8e-4798-84db-317de11ee672")
-	)
-	(wire
-		(pts
 			(xy 176.53 74.93) (xy 176.53 73.66)
 		)
 		(stroke
@@ -1990,26 +1699,6 @@
 			(type default)
 		)
 		(uuid "2abc2f41-c75c-4456-8297-81c3cc6a610b")
-	)
-	(wire
-		(pts
-			(xy 176.53 109.22) (xy 191.77 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ae311aa-2c7b-4f1a-a4ea-f092ca985476")
-	)
-	(wire
-		(pts
-			(xy 217.17 116.84) (xy 217.17 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d982ac2-3925-4c72-bed9-1cc01e3c19c9")
 	)
 	(wire
 		(pts
@@ -2103,16 +1792,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 109.22) (xy 217.17 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a6fe842-3fbc-484f-b8ad-7b3b0ef61649")
-	)
-	(wire
-		(pts
 			(xy 69.85 67.31) (xy 69.85 68.58)
 		)
 		(stroke
@@ -2130,16 +1809,6 @@
 			(type default)
 		)
 		(uuid "abf958c9-da33-4084-8803-c8f4b263a277")
-	)
-	(wire
-		(pts
-			(xy 217.17 109.22) (xy 223.52 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac6ca70e-d80d-44c4-9f92-158ce309012d")
 	)
 	(wire
 		(pts
@@ -2203,16 +1872,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 110.49) (xy 176.53 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e27f3951-8940-4d75-ab47-4f751822d347")
-	)
-	(wire
-		(pts
 			(xy 90.17 82.55) (xy 91.44 82.55)
 		)
 		(stroke
@@ -2220,16 +1879,6 @@
 			(type default)
 		)
 		(uuid "e7919021-80e2-46c5-b7e3-e6f02849a82b")
-	)
-	(wire
-		(pts
-			(xy 170.18 109.22) (xy 176.53 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eae4cc23-8b1a-4c36-af38-6c0a9e309f3d")
 	)
 	(wire
 		(pts
@@ -2822,72 +2471,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7528e2cb-e513-4b24-94b4-b160bef2ea40")
-		(property "Reference" "#PWR047"
-			(at 217.17 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86da42b3-5688-439d-9073-ec101db94bec")
-		)
-		(instances
-			(project "APG_Sensor_Test_Board"
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 69.85 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3012,142 +2595,6 @@
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 217.17 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b24522a-41b5-4a25-a1c8-5dc1d5456101")
-		(property "Reference" "C17"
-			(at 219.71 111.7662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 219.71 114.3062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f75594aa-794a-4393-a99a-0c7dc303710f")
-		)
-		(pin "1"
-			(uuid "f8055826-80dc-42da-94db-7b8df1aadb20")
-		)
-		(instances
-			(project "APG_Sensor_Test_Board"
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 223.52 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93ccf287-01a5-421e-89f8-9fe26f3e0368")
-		(property "Reference" "#PWR048"
-			(at 223.52 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 223.52 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e56421e-c098-446b-8e64-7e3ed03ca56d")
-		)
-		(instances
-			(project ""
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3426,142 +2873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 176.53 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0fc62d6-0f62-4706-85bb-996f24e726fc")
-		(property "Reference" "C16"
-			(at 179.07 111.7662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 179.07 114.3062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 176.53 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "06264f52-7ba5-4013-b9e9-8ee1b109520d")
-		)
-		(pin "1"
-			(uuid "30247ea9-1aad-4276-a9dd-013769bec458")
-		)
-		(instances
-			(project "APG_Sensor_Test_Board"
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 170.18 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c317bb5e-20eb-43b5-9b75-644e7c5516bd")
-		(property "Reference" "#PWR045"
-			(at 170.18 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 170.18 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 170.18 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b6419f2-553b-4c75-856a-0b1c4835315b")
-		)
-		(instances
-			(project "APG_Sensor_Test_Board"
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 199.39 83.82 0)
 		(unit 1)
@@ -3622,77 +2933,6 @@
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:MCP1700x-180xxTT")
-		(at 199.39 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfe1977d-e464-4631-b43b-4ca052b14620")
-		(property "Reference" "U4"
-			(at 199.39 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP1700x-180xxTT"
-			(at 199.39 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 199.39 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf"
-			(at 199.39 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "250mA Low Quiscent Current LDO, 1.8V output, SOT-23"
-			(at 199.39 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d50c0907-1451-4b54-ab4c-dedafa3e88e2")
-		)
-		(pin "2"
-			(uuid "89b0400a-b615-4531-9cfb-74d37dfa9685")
-		)
-		(pin "3"
-			(uuid "304d6db1-1baa-4aef-8f48-9776f9ba4d15")
-		)
-		(instances
-			(project ""
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3940,72 +3180,6 @@
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecbec634-1428-423f-a80b-66db62ce6b9b")
-		(property "Reference" "#PWR046"
-			(at 176.53 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e771dbba-ea3c-4c8e-a33b-06c6087e4995")
-		)
-		(instances
-			(project "APG_Sensor_Test_Board"
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/ce24b18a-13e5-44eb-9a8e-7d29741d4106"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
