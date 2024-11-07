@@ -2577,7 +2577,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 123.19 89.2174 90)
 			(effects
 				(font
@@ -2605,6 +2605,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2297"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -2653,7 +2662,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Yellow"
 			(at 110.49 89.2174 90)
 			(effects
 				(font
@@ -2681,6 +2690,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2296"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -2935,7 +2953,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 135.89 89.2174 90)
 			(effects
 				(font
@@ -2963,6 +2981,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C84256"
 			(at 132.08 86.36 0)
 			(effects
 				(font
