@@ -715,6 +715,12 @@
 		(color 0 0 0 0)
 		(uuid "03d87ad9-ab27-43d4-b20b-c7f2eea0f66d")
 	)
+	(junction
+		(at 106.68 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47dbce1e-c542-4b21-9453-5c34f1fdb730")
+	)
 	(wire
 		(pts
 			(xy 80.01 63.5) (xy 80.01 64.77)
@@ -827,7 +833,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 49.53) (xy 106.68 68.58)
+			(xy 106.68 49.53) (xy 106.68 54.61)
 		)
 		(stroke
 			(width 0)
@@ -857,6 +863,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 54.61) (xy 106.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8093e9-8fcc-499a-a7c0-29a8793e8493")
+	)
+	(wire
+		(pts
 			(xy 59.69 78.74) (xy 96.52 78.74)
 		)
 		(stroke
@@ -875,7 +891,29 @@
 		)
 		(uuid "f8a1641b-bfc8-4322-a5cc-c84523383daa")
 	)
-	(hierarchical_label "SCLK"
+	(label "BARO_POWER"
+		(at 106.68 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed76c922-7f94-48b7-8259-763228ddb71e")
+	)
+	(label "BARO_POWER"
+		(at 80.01 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7807097-b875-4985-89d3-ccb6081c1bbf")
+	)
+	(hierarchical_label "BARO_CLK"
 		(shape input)
 		(at 59.69 81.28 180)
 		(fields_autoplaced yes)
@@ -887,7 +925,7 @@
 		)
 		(uuid "97691320-b742-4f90-8b5e-69b81f83c592")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "BARO_SDA"
 		(shape bidirectional)
 		(at 59.69 78.74 180)
 		(fields_autoplaced yes)
@@ -909,7 +947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20ea3e7d-d753-467d-bf14-a7bee7adcd88")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR028"
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -960,7 +998,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/7b0bc84d-15d8-45fa-9c7e-7492acb184f4"
-					(reference "#PWR031")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -976,7 +1014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46de039b-b2f6-409b-9ce1-899e1d327461")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR025"
 			(at 80.01 104.14 0)
 			(effects
 				(font
@@ -1027,7 +1065,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/7b0bc84d-15d8-45fa-9c7e-7492acb184f4"
-					(reference "#PWR028")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1043,7 +1081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "902b798f-6d90-4184-8832-815fc7037456")
-		(property "Reference" "R13"
+		(property "Reference" "R19"
 			(at 109.22 44.4499 0)
 			(effects
 				(font
@@ -1097,7 +1135,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/7b0bc84d-15d8-45fa-9c7e-7492acb184f4"
-					(reference "R13")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1113,7 +1151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "903f4431-8e3a-46d8-beb0-4b3433b6c1fe")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR026"
 			(at 101.6 69.85 0)
 			(effects
 				(font
@@ -1163,73 +1201,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/7b0bc84d-15d8-45fa-9c7e-7492acb184f4"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 80.01 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aee88a93-aeb0-43b5-8221-1e8aa5ad24c7")
-		(property "Reference" "#PWR027"
-			(at 80.01 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 80.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de88d690-ceb6-42de-88a8-289e7e30ce10")
-		)
-		(instances
-			(project "APG_Sensor_Test_Board"
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/7b0bc84d-15d8-45fa-9c7e-7492acb184f4"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1245,7 +1217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be4e12b1-2354-4af4-a46c-f87bedc94e15")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR027"
 			(at 106.68 41.91 0)
 			(effects
 				(font
@@ -1295,7 +1267,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/7b0bc84d-15d8-45fa-9c7e-7492acb184f4"
-					(reference "#PWR030")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1311,7 +1283,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c946cf4b-9de2-4a51-8183-363a2d203e13")
-		(property "Reference" "R12"
+		(property "Reference" "R18"
 			(at 82.55 91.4399 0)
 			(effects
 				(font
@@ -1365,7 +1337,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/7b0bc84d-15d8-45fa-9c7e-7492acb184f4"
-					(reference "R12")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1548,7 +1520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f55402b4-e60d-432e-9294-45b175ff6f5f")
-		(property "Reference" "R11"
+		(property "Reference" "R17"
 			(at 82.55 67.3099 0)
 			(effects
 				(font
@@ -1602,7 +1574,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/7b0bc84d-15d8-45fa-9c7e-7492acb184f4"
-					(reference "R11")
+					(reference "R17")
 					(unit 1)
 				)
 			)

@@ -5,165 +5,6 @@
 	(uuid "78552e7c-c325-4174-a4c2-cbd8f86f67d1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C_Polarized_Small_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small_US"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_Small_US_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -0.762)
-					(mid 0 -0.3734)
-					(end -1.524 -0.762)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_US_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -977,12 +818,6 @@
 		(uuid "384e63b2-4f9c-4d3b-b2c1-20329e9cc5a4")
 	)
 	(junction
-		(at 118.11 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3af3b7ec-2e1e-4f7c-bb15-4dcae6400ba1")
-	)
-	(junction
 		(at 139.7 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -994,6 +829,14 @@
 		(color 0 0 0 0)
 		(uuid "f0006f18-b30e-425e-9fde-6191a6524c98")
 	)
+	(no_connect
+		(at 142.24 104.14)
+		(uuid "13d51c67-cc8f-4616-a7dd-c9c0afe02472")
+	)
+	(no_connect
+		(at 132.08 78.74)
+		(uuid "4c5ab1b5-f4f9-4ebc-9d2f-c15a87d1cbc3")
+	)
 	(wire
 		(pts
 			(xy 139.7 68.58) (xy 142.24 68.58)
@@ -1003,6 +846,16 @@
 			(type default)
 		)
 		(uuid "15681461-38d8-493e-bfd5-16f1d06596cd")
+	)
+	(wire
+		(pts
+			(xy 100.33 96.52) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0b72bd-9652-4fe0-b952-a8c2e3761ed1")
 	)
 	(wire
 		(pts
@@ -1056,6 +909,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 88.9) (xy 124.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62045a47-33c8-4c38-ac13-1c6a739e7923")
+	)
+	(wire
+		(pts
 			(xy 139.7 63.5) (xy 139.7 68.58)
 		)
 		(stroke
@@ -1073,16 +936,6 @@
 			(type default)
 		)
 		(uuid "8136d3ee-19e1-40f1-b854-2341f5cb3f67")
-	)
-	(wire
-		(pts
-			(xy 118.11 87.63) (xy 118.11 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8400ff7b-7533-4d3a-bc7c-906f651c12a5")
 	)
 	(wire
 		(pts
@@ -1116,16 +969,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 96.52) (xy 124.46 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4339712-687f-4672-90d0-972ae719d0ec")
-	)
-	(wire
-		(pts
 			(xy 134.62 71.12) (xy 134.62 68.58)
 		)
 		(stroke
@@ -1133,36 +976,6 @@
 			(type default)
 		)
 		(uuid "bd6cf3fc-51a0-4d43-bed2-9de0bb989333")
-	)
-	(wire
-		(pts
-			(xy 121.92 88.9) (xy 124.46 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c89e6c5f-369c-4fc3-ae84-814038261f03")
-	)
-	(wire
-		(pts
-			(xy 118.11 96.52) (xy 118.11 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3ca264c-505f-4fd1-96ed-0542bf0531b2")
-	)
-	(wire
-		(pts
-			(xy 118.11 76.2) (xy 118.11 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da807443-5c98-44d3-a714-0c14d413b633")
 	)
 	(wire
 		(pts
@@ -1176,16 +989,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 107.95) (xy 118.11 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f65743e7-dbe3-4e12-9bb4-daf5243eafaa")
-	)
-	(wire
-		(pts
 			(xy 134.62 68.58) (xy 137.16 68.58)
 		)
 		(stroke
@@ -1194,9 +997,9 @@
 		)
 		(uuid "fe71f12d-01b5-463f-8080-00f03f3f959f")
 	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
-		(at 100.33 91.44 180)
+	(hierarchical_label "HIGH_G_CS"
+		(shape input)
+		(at 100.33 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1204,10 +1007,10 @@
 			)
 			(justify right)
 		)
-		(uuid "3e4931f0-8bd7-4c9c-9ce0-f31b40a6a641")
+		(uuid "0273dcec-d4d8-4ace-b42e-0dcac4a2340e")
 	)
-	(hierarchical_label "SCLK"
-		(shape input)
+	(hierarchical_label "HIGH_G_CLK"
+		(shape output)
 		(at 100.33 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1216,7 +1019,7 @@
 			)
 			(justify right)
 		)
-		(uuid "3f466e8b-7482-40be-86ee-b18c13315d0f")
+		(uuid "2ddeaff4-e7d0-41b7-a8b0-7ebe305a22a0")
 	)
 	(hierarchical_label "INT1"
 		(shape output)
@@ -1242,6 +1045,30 @@
 		)
 		(uuid "acbf610f-71ea-494b-8e8b-ffcc8b41e17b")
 	)
+	(hierarchical_label "HIGH_G_MISO"
+		(shape output)
+		(at 100.33 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b47f980e-c098-49ff-a703-bdf9c5436ba7")
+	)
+	(hierarchical_label "HIGH_G_MOSI"
+		(shape input)
+		(at 100.33 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e56e8262-92d4-439c-8748-a0b3387ac767")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 134.62 76.2 0)
@@ -1252,7 +1079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "080c284c-2b9d-44f2-987c-05edbfb97e27")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 134.62 82.55 0)
 			(effects
 				(font
@@ -1303,7 +1130,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/1a909ed9-2d0f-4363-a0e5-ed8adc5427dd"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -1319,7 +1146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a31c8fc-60a1-497b-902c-c200247418b5")
-		(property "Reference" "R10"
+		(property "Reference" "R16"
 			(at 137.16 58.4199 0)
 			(effects
 				(font
@@ -1373,7 +1200,77 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/1a909ed9-2d0f-4363-a0e5-ed8adc5427dd"
-					(reference "R10")
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 134.62 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "193f66e0-d2ff-415b-9f4a-6a865a1aaf1f")
+		(property "Reference" "C8"
+			(at 132.08 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 132.08 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa6b6121-d000-4776-8d80-5f0b3c3e88a1")
+		)
+		(pin "2"
+			(uuid "e5cd8499-1ef0-4f5b-9e97-8ae57e21ecfa")
+		)
+		(instances
+			(project "APG_Sensor_Test_Board"
+				(path "/3161be0c-372f-463d-be0a-bab00f344057/1a909ed9-2d0f-4363-a0e5-ed8adc5427dd"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -1389,7 +1286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c351ea7-0d71-4006-a60d-f60dee4565ae")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 144.78 82.55 0)
 			(effects
 				(font
@@ -1440,7 +1337,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/1a909ed9-2d0f-4363-a0e5-ed8adc5427dd"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1511,73 +1408,6 @@
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/1a909ed9-2d0f-4363-a0e5-ed8adc5427dd"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51e5f5b0-35b2-48ce-bb06-4f300f1d1dc3")
-		(property "Reference" "#PWR022"
-			(at 118.11 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f32e0a60-4b80-48c1-b375-d8d37d533060")
-		)
-		(instances
-			(project "APG_Sensor_Test_Board"
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/1a909ed9-2d0f-4363-a0e5-ed8adc5427dd"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1706,7 +1536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7855999e-cbd0-498e-8be2-5018f9571371")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -1757,143 +1587,7 @@
 		(instances
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/1a909ed9-2d0f-4363-a0e5-ed8adc5427dd"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 118.11 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90c56599-06a9-45c1-b47b-a5c07794d39f")
-		(property "Reference" "#PWR021"
-			(at 118.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 118.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab52b7de-d578-4c14-b601-9f8cc7d215f4")
-		)
-		(instances
-			(project "APG_Sensor_Test_Board"
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/1a909ed9-2d0f-4363-a0e5-ed8adc5427dd"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 104.14 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "9ac03f63-3f1a-4def-a440-54f2cfa13ed5")
-		(property "Reference" "R9"
-			(at 115.57 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 115.57 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 119.888 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ade1296-bf70-492b-8ea7-4fb51d00bc80")
-		)
-		(pin "2"
-			(uuid "24a4e19c-43fc-4383-9847-51237d7b2ab2")
-		)
-		(instances
-			(project "APG_Sensor_Test_Board"
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/1a909ed9-2d0f-4363-a0e5-ed8adc5427dd"
-					(reference "R9")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1909,7 +1603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8c615c7-2037-4004-843b-942e06018770")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 139.7 57.15 0)
 			(effects
 				(font
@@ -1959,147 +1653,7 @@
 		(instances
 			(project ""
 				(path "/3161be0c-372f-463d-be0a-bab00f344057/1a909ed9-2d0f-4363-a0e5-ed8adc5427dd"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 134.62 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aaf9bd2e-7147-4fcd-a968-8ad34e79eacf")
-		(property "Reference" "C8"
-			(at 132.08 71.9581 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 132.08 74.4981 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small US symbol"
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb93e3cc-44d2-42e7-8797-0d33905065f2")
-		)
-		(pin "2"
-			(uuid "8e9f9561-2635-4793-9f2b-28918b4aca20")
-		)
-		(instances
-			(project ""
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/1a909ed9-2d0f-4363-a0e5-ed8adc5427dd"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0f0f61c-b0a0-4e07-bb1a-85a061bb41c4")
-		(property "Reference" "R8"
-			(at 115.57 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 115.57 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 119.888 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4252405-5078-4070-a611-140a5227bf4c")
-		)
-		(pin "2"
-			(uuid "0bf7cff3-6d1c-4633-a6c8-ba6de1a99387")
-		)
-		(instances
-			(project "APG_Sensor_Test_Board"
-				(path "/3161be0c-372f-463d-be0a-bab00f344057/1a909ed9-2d0f-4363-a0e5-ed8adc5427dd"
-					(reference "R8")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
