@@ -2622,7 +2622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 			(at 68.58 109.22 0)
 			(effects
 				(font
@@ -3618,7 +3618,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 			(at 110.49 110.49 0)
 			(effects
 				(font
