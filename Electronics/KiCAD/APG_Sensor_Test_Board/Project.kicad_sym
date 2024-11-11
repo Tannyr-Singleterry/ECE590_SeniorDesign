@@ -476,8 +476,7 @@
 					(type default)
 				)
 				(fill
-					(type color)
-					(color 255 255 194 0.49)
+					(type none)
 				)
 			)
 			(pin passive line

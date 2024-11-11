@@ -716,6 +716,12 @@
 		(color 0 0 0 0)
 		(uuid "b16a8b56-89e1-48fb-a68a-c69db01eb2ee")
 	)
+	(junction
+		(at 116.84 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbf75ae9-3753-482c-ba27-6525ef0b0e4e")
+	)
 	(wire
 		(pts
 			(xy 119.38 76.2) (xy 121.92 76.2)
@@ -728,7 +734,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 66.04) (xy 121.92 66.04)
+			(xy 115.57 66.04) (xy 116.84 66.04)
 		)
 		(stroke
 			(width 0)
@@ -798,6 +804,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 60.96) (xy 116.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e753b0-3854-4c16-9959-bf6cd3527d75")
+	)
+	(wire
+		(pts
 			(xy 115.57 68.58) (xy 121.92 68.58)
 		)
 		(stroke
@@ -818,6 +834,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 66.04) (xy 121.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0c2e3f-f7eb-4967-bc0c-0da9a8ce4e2b")
+	)
+	(wire
+		(pts
 			(xy 115.57 78.74) (xy 119.38 78.74)
 		)
 		(stroke
@@ -825,6 +851,17 @@
 			(type default)
 		)
 		(uuid "fc4f5b7e-2fb6-4445-afef-fafc0864411f")
+	)
+	(label "FPWR"
+		(at 116.84 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e42574b-d04c-48d5-beae-461a5643e868")
 	)
 	(label "FPWR"
 		(at 115.57 78.74 180)
@@ -924,7 +961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 130.302 44.45 90)
 			(effects
 				(font
@@ -1099,6 +1136,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 116.84 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f250a3d-4957-4df0-ad9d-e8023dbfc1b8")
+		(property "Reference" "R31"
+			(at 119.38 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 119.38 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.062 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70f72f0d-a2a6-496c-b5f3-277eeae91789")
+		)
+		(pin "1"
+			(uuid "d45af6e3-3f4a-4f61-b54d-1a00bf6dc49e")
+		)
+		(instances
+			(project "APG_Sensor_Test_Board"
+				(path "/3161be0c-372f-463d-be0a-bab00f344057/1176df13-1d31-4c0d-ab61-bd75d7380dc4"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 137.16 57.15 0)
 		(unit 1)
@@ -1192,7 +1299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.1252 57.15 0)
 			(effects
 				(font
