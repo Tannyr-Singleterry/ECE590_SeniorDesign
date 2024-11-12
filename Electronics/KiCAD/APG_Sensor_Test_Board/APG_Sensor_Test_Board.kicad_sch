@@ -1068,7 +1068,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 187.96) (xy 31.75 187.96)
+			(xy 15.24 184.15) (xy 31.75 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1185,6 +1185,16 @@
 			(type default)
 		)
 		(uuid "214d1013-7b1a-4776-adc2-fa0d5f72e71e")
+	)
+	(wire
+		(pts
+			(xy 29.21 190.5) (xy 31.75 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21585d0e-eb8e-46ee-84e2-f7cbc919c002")
 	)
 	(wire
 		(pts
@@ -1678,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 177.8) (xy 31.75 177.8)
+			(xy 15.24 173.99) (xy 31.75 173.99)
 		)
 		(stroke
 			(width 0)
@@ -1758,7 +1768,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 167.64) (xy 31.75 167.64)
+			(xy 15.24 163.83) (xy 31.75 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1788,7 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 172.72) (xy 31.75 172.72)
+			(xy 15.24 168.91) (xy 31.75 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1818,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 182.88) (xy 31.75 182.88)
+			(xy 15.24 179.07) (xy 31.75 179.07)
 		)
 		(stroke
 			(width 0)
@@ -1869,7 +1879,7 @@
 		(uuid "1132e18d-44ab-4c4d-8325-8cc6c384a767")
 	)
 	(label "IMU_RST"
-		(at 15.24 172.72 0)
+		(at 15.24 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1924,7 +1934,7 @@
 		(uuid "68d405dd-6afe-4e9c-a70f-cfa82d6914cc")
 	)
 	(label "IMU_PS0{slash}WAKE"
-		(at 15.24 167.64 0)
+		(at 15.24 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1946,7 +1956,7 @@
 		(uuid "82c32192-260b-419d-be97-9ab07bfebef9")
 	)
 	(label "SCS_HIGH_G"
-		(at 15.24 177.8 0)
+		(at 15.24 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2001,7 +2011,7 @@
 		(uuid "bd4adfb2-259d-4cec-be68-4c2715c89e46")
 	)
 	(label "HIGH_G_INT1"
-		(at 15.24 182.88 0)
+		(at 15.24 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2045,7 +2055,7 @@
 		(uuid "cfe2e7f0-32e1-4ec4-a4ea-d722deb4ff66")
 	)
 	(label "HIGH_G_INT2"
-		(at 15.24 187.96 0)
+		(at 15.24 184.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2679,7 +2689,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 31.75 172.72 270)
+		(at 31.75 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2688,7 +2698,7 @@
 		(fields_autoplaced yes)
 		(uuid "43b295be-77e8-47e4-8827-b796771950e1")
 		(property "Reference" "TP8"
-			(at 36.83 171.4499 90)
+			(at 36.83 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2707,7 @@
 			)
 		)
 		(property "Value" "IMU_RST"
-			(at 36.83 173.9899 90)
+			(at 36.83 170.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2716,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 31.75 177.8 0)
+			(at 31.75 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 177.8 0)
+			(at 31.75 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +2734,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 31.75 172.72 0)
+			(at 31.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,6 +3167,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 29.21 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84d96b38-b476-49e5-bd40-1b575be3b75b")
+		(property "Reference" "#PWR056"
+			(at 29.21 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7d57ae2-97e5-4a6a-859e-9de643dbcb0e")
+		)
+		(instances
+			(project "APG_Sensor_Test_Board"
+				(path "/3161be0c-372f-463d-be0a-bab00f344057"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 59.69 177.8 0)
 		(unit 1)
@@ -3289,7 +3365,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 31.75 187.96 270)
+		(at 31.75 184.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3298,7 +3374,7 @@
 		(fields_autoplaced yes)
 		(uuid "93cf7d1a-c3f9-460b-bd5f-c5d23ecc38bc")
 		(property "Reference" "TP11"
-			(at 36.83 186.6899 90)
+			(at 36.83 182.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +3383,7 @@
 			)
 		)
 		(property "Value" "HIGH_G_INT2"
-			(at 36.83 189.2299 90)
+			(at 36.83 185.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3392,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 31.75 193.04 0)
+			(at 31.75 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,7 +3401,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 193.04 0)
+			(at 31.75 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3410,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 31.75 187.96 0)
+			(at 31.75 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3432,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 31.75 177.8 270)
+		(at 31.75 173.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3365,7 +3441,7 @@
 		(fields_autoplaced yes)
 		(uuid "94bbe5e8-0066-4ae6-91a0-4e785ed6d7af")
 		(property "Reference" "TP9"
-			(at 36.83 176.5299 90)
+			(at 36.83 172.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +3450,7 @@
 			)
 		)
 		(property "Value" "SCS_HIGH_G"
-			(at 36.83 179.0699 90)
+			(at 36.83 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3459,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 31.75 182.88 0)
+			(at 31.75 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 182.88 0)
+			(at 31.75 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +3477,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 31.75 177.8 0)
+			(at 31.75 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3566,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 31.75 167.64 270)
+		(at 31.75 163.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3499,7 +3575,7 @@
 		(fields_autoplaced yes)
 		(uuid "b260b63e-333e-47f0-91c7-c7af9745b25a")
 		(property "Reference" "TP7"
-			(at 36.83 166.3699 90)
+			(at 36.83 162.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3584,7 @@
 			)
 		)
 		(property "Value" "IMU_PS0/AWKE"
-			(at 36.83 168.9099 90)
+			(at 36.83 165.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3593,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 31.75 172.72 0)
+			(at 31.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +3602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 172.72 0)
+			(at 31.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +3611,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 31.75 167.64 0)
+			(at 31.75 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +3990,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 31.75 182.88 270)
+		(at 31.75 179.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3923,7 +3999,7 @@
 		(fields_autoplaced yes)
 		(uuid "d51bf3cf-5fa2-4dbe-9044-0a94e60be66e")
 		(property "Reference" "TP10"
-			(at 36.83 181.6099 90)
+			(at 36.83 177.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +4008,7 @@
 			)
 		)
 		(property "Value" "HIGH_G_INT1"
-			(at 36.83 184.1499 90)
+			(at 36.83 180.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +4017,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 31.75 187.96 0)
+			(at 31.75 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +4026,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 187.96 0)
+			(at 31.75 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,7 +4035,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 31.75 182.88 0)
+			(at 31.75 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,6 +4333,73 @@
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e70af3b5-903e-4a25-aa03-9e139e45fd16")
+		(property "Reference" "TP6"
+			(at 36.83 189.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCS_IMU"
+			(at 36.83 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 31.75 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4150563c-0e04-4f88-aded-cf6cc873be46")
+		)
+		(instances
+			(project "APG_Sensor_Test_Board"
+				(path "/3161be0c-372f-463d-be0a-bab00f344057"
+					(reference "TP6")
 					(unit 1)
 				)
 			)

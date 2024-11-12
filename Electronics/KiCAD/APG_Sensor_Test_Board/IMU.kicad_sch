@@ -2570,13 +2570,11 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 134.62 44.45 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ff19d40d-89b2-4dcf-806a-38eff2048cfe")
 		(property "Reference" "C5"
 			(at 132.08 43.1862 0)
@@ -2584,16 +2582,16 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uf"
 			(at 132.08 45.7262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
