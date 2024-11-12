@@ -947,12 +947,6 @@
 		(uuid "457df8db-0bb5-41c8-822e-574700915bd6")
 	)
 	(junction
-		(at 96.52 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a83f2ec-addf-42bc-8e22-3ea847a561a1")
-	)
-	(junction
 		(at 80.01 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -969,12 +963,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9c6acd4-2340-4d1d-bfed-32bd9776177c")
-	)
-	(junction
-		(at 82.55 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aca10a19-37f1-4306-b198-1a619e8812fe")
 	)
 	(junction
 		(at 181.61 43.18)
@@ -1037,16 +1025,6 @@
 			(type default)
 		)
 		(uuid "0191c88a-adee-47f7-aadf-171896156a83")
-	)
-	(wire
-		(pts
-			(xy 96.52 30.48) (xy 120.65 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "041b90f8-1fde-4e9f-9485-cbb53544b442")
 	)
 	(wire
 		(pts
@@ -1290,7 +1268,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 27.94) (xy 82.55 27.94)
+			(xy 72.39 27.94) (xy 120.65 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1340,23 +1318,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 30.48) (xy 96.52 30.48)
+			(xy 72.39 30.48) (xy 120.65 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a755c44-3252-44d4-a4d5-4d97860e2df7")
-	)
-	(wire
-		(pts
-			(xy 82.55 27.94) (xy 120.65 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "524a64ed-cb29-42e1-9f57-4bed85542b32")
 	)
 	(wire
 		(pts
@@ -1397,16 +1365,6 @@
 			(type default)
 		)
 		(uuid "57ea4a94-16d9-4c7f-82ed-fe15c487e85c")
-	)
-	(wire
-		(pts
-			(xy 82.55 22.86) (xy 82.55 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58f3cb48-4fb9-4a4c-9a05-68dfffda0076")
 	)
 	(wire
 		(pts
@@ -1557,16 +1515,6 @@
 			(type default)
 		)
 		(uuid "8f191619-1dbb-4936-8db7-5f5ac8154a77")
-	)
-	(wire
-		(pts
-			(xy 96.52 22.86) (xy 96.52 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90ffc182-9045-43a5-b511-d64e2f2f932d")
 	)
 	(wire
 		(pts
@@ -2191,73 +2139,6 @@
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
 					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 96.52 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12c58b64-0daa-404a-8258-27e974e12ad3")
-		(property "Reference" "TP15"
-			(at 99.06 18.2879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_N"
-			(at 99.06 20.8279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 101.6 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 96.52 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c6a4f3d-647a-4f11-8352-acf9ef317e51")
-		)
-		(instances
-			(project "APG_Sensor_Test_Board"
-				(path "/3161be0c-372f-463d-be0a-bab00f344057"
-					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -4444,73 +4325,6 @@
 			(project "APG_Sensor_Test_Board"
 				(path "/3161be0c-372f-463d-be0a-bab00f344057"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 82.55 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e884be7b-2efe-48f6-9f2d-c1147363b784")
-		(property "Reference" "TP13"
-			(at 85.09 18.2879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_P"
-			(at 85.09 20.8279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 87.63 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 82.55 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de773c91-eabd-4206-83d5-42794c3ee29d")
-		)
-		(instances
-			(project "APG_Sensor_Test_Board"
-				(path "/3161be0c-372f-463d-be0a-bab00f344057"
-					(reference "TP13")
 					(unit 1)
 				)
 			)
