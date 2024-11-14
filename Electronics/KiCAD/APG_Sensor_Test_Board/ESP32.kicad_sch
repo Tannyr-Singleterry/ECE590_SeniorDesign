@@ -2735,6 +2735,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2913198"
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "40"
 			(uuid "584d0221-c328-40a3-86e6-b17cd24efccb")
 		)

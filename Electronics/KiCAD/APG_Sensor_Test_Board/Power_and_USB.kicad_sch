@@ -3123,7 +3123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 231.14 78.7462 0)
 			(effects
 				(font
@@ -3328,7 +3328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 179.07 78.7462 0)
 			(effects
 				(font
@@ -3397,7 +3397,7 @@
 				)
 			)
 		)
-		(property "Value" "330Ω"
+		(property "Value" "330"
 			(at 120.5992 77.47 90)
 			(effects
 				(font
@@ -3424,6 +3424,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C76819"
 			(at 120.65 82.55 0)
 			(effects
 				(font

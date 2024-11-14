@@ -4357,7 +4357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SCS_IMU"
+		(property "Value" "GND"
 			(at 36.83 191.7699 90)
 			(effects
 				(font
